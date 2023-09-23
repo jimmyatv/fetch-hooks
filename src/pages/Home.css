@@ -1,0 +1,41 @@
+.header {
+    position: relative;
+}
+.header img {
+    height: calc(100vh - 55px);
+    width: 100%;
+}
+
+.form {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header form input:first-child, .header form input:nth-last-of-type(2)  {
+    padding: 10px;
+    border-radius: 99px;
+    margin-top: 10px;
+}
+
+.header form input:last-child {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    color: #fff;
+    border: 2px solid brown;
+    transition: .2s linear;
+}
+.header form input:last-child:hover {
+    background-color: #fff;
+    color: brown;
+    cursor: pointer;
+}
