@@ -16,7 +16,7 @@ const Navbar = () => {
                 {navBarLinks.map((nav, idx) => {
                     return (
                         <li key={idx}>
-                            <Link to={nav.url}>{nav.title}</Link>
+                            <Link target="_blank" to={nav.url}>{nav.title}</Link>
                         </li>
                     )
                 })}
